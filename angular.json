@@ -5,6 +5,11 @@
   "projects": {
     "name-library": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/name-library",
       "sourceRoot": "projects/name-library/src",
       "prefix": "ms",
